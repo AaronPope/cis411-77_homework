@@ -1,0 +1,41 @@
+<!--
+Aaron Pope
+CIS 411-77
+Assignment 2 -->
+
+<!-- registration_form.html-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css">
+	<title>Site Registration</title>
+	<script>		
+		function validateEmail()
+		{						
+			var textEntry = document.getElementById("email");			
+			var atLoc = textEntry.value.indexOf("@");
+			var perLoc = textEntry.value.lastIndexOf(".");					
+			if(atLoc === 0 || perLoc < atLoc || perLoc === -1 || atLoc === -1 || perLoc === (atLoc + 1))
+			{
+				alert("Please enter a valid email address");			
+			}
+		}
+	</script>	
+</head>
+
+<body>
+	<h1>Registration</h1><br>
+	<form align = "center" onsubmit = "validateEmail()")>
+	Enter your email address below.  We will send you all of the Spam that you can't handle.</br>
+	<input type = "text" id = "email"><br>
+	<input type = "submit" value = "Submit">
+	</form>
+	<br><br>
+	<footer align = "center">
+	<a href = "calculator.html">Return to Calculator</a><br>
+	<a href = "faq.html">FAQ</a>&nbsp;&nbsp;
+	<a href = "feedback_form.html">Submit Feedback</a>
+	</footer>
+
+</body>
+</html>

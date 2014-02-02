@@ -1,0 +1,29 @@
+/*
+Aaron Pope
+CIS 411-77
+Spring 2014
+Assignment 1
+*/
+
+/*styles.css*/
+
+h1 {
+background-color: black;
+}
+
+h2 {
+background-color: red;
+color: black;
+}
+
+body {
+color: red;
+}
+
+p {
+margin-left: 35px;
+}
+
+pre {
+text-align: center;
+}

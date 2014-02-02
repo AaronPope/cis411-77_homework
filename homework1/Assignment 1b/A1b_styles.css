@@ -1,0 +1,71 @@
+/*
+Aaron Pope
+CIS 411-77
+Spring 2014
+Assignment 1
+*/
+
+/*A1b_styles.css*/
+
+body
+{
+	background: url("Background_left.jpg") no-repeat, url("Background_right.jpg") no-repeat;
+}
+
+h2
+{
+	padding-left: 	160px;
+	width: 230px;
+	font-family: Trebuchet MS;		
+	color: #302F29;	
+}
+
+p
+{
+	padding-left: 	160px;
+	text-align: justify;
+	width: 230px;
+	font-family: Trebuchet MS;	
+	font-size: 12px;
+	color: #5E553D;
+}
+
+a:hover
+{
+	background: url("Styled_Check_Mark.gif") no-repeat;
+}
+
+a:link
+{
+	color: #000000;
+}
+
+a:visited
+{
+	color: #3B3832
+}
+
+footer
+{
+	padding-left: 175px;	
+}
+
+#sidebar
+{
+	padding-left: 	450px;
+	width: 150px;
+	font-family: Trebuchet MS;	
+	font-size: 12px;
+	color: #5E553D;
+	text-align: justify;
+}
+
+#headerImage
+{
+	background: url("Vertigo_Title.jpg") no-repeat;	
+	width: 230px;
+	padding-left: 	160px;
+	font-family: Trebuchet MS;	
+	font-size: 12px;
+	color: #5E553D;
+}

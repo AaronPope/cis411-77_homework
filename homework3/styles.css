@@ -1,0 +1,52 @@
+.boardElement
+{
+	height: 100px;
+	width: 100px;
+	border: 2px solid;
+	border-color: gray;
+	margin: 2px;
+	align: left;
+	text-align: center;
+	font-size: 44px;
+	font-family: Impact;
+}
+
+h1
+{
+	font-size: 44px;
+	font-family: Impact;
+	text-align: center;
+}
+
+#replay
+{
+	text-align: center;
+}
+
+#replayButton
+{
+	height: 65px;
+	width: 275px;
+	font-weight: bold;
+}
+
+.mainMenu
+{
+	text-align: middle;
+	font-family: Impact;
+	font-size: 30px;
+}
+
+.submenu
+{
+	padding: 15px;
+}
+
+form
+{
+	width: 20%;
+}
+form input
+{
+	width: 100%;
+}

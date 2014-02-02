@@ -1,0 +1,80 @@
+/*
+Aaron Pope
+CIS 411-77
+Assignment 2 */
+
+/* styles.css */
+
+h1
+{
+  font-family: sans-serif;
+  color:  #d9d9d9;
+  background-color: #3d3d3d;
+  margin: auto;
+  text-align: center;
+}
+
+.button
+{
+	width: 100%;
+	border-radius: 2px;
+	font-family: Monospace;
+	background-color: #a3a2a2;
+	font-weight: bold;
+	font-style: shadow;
+	color: #ededed;
+	border: solid;
+	border-color: #a3a2a2;
+}
+
+.button:hover
+{
+	background-color: #b3b2b2;
+}
+
+table
+{
+	margin: auto;
+	background-image: url("Metal_Texture.gif");
+	padding: 7px;
+	border-radius: 5px;
+}
+
+#display
+{
+	height: 100%;
+	width: 163px;
+	font-size: 24px;
+	text-align: right;
+	font-family: "Comic Sans ms";
+	background-color: #d9d9d9;
+
+}
+
+.faq_q
+{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.faq_a
+{
+	margin-left: 20px;	
+}
+
+a
+{
+	color: black;
+}
+
+a:hover
+{
+	color: red;
+}
+
+.long_text_entry
+{
+	width: 50%;
+	height: 100px;
+	
+}

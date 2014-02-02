@@ -1,0 +1,43 @@
+<!--
+Aaron Pope
+CIS 411-77
+Assignment 2 -->
+
+<!-- feedback_form.html-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css">
+	<title>Submit Feedback</title>
+	<script>
+		function validateEmail()
+		{						
+			var textEntry = document.getElementById("email");			
+			var atLoc = textEntry.value.indexOf("@");
+			var perLoc = textEntry.value.lastIndexOf(".");					
+			if(atLoc === 0 || perLoc < atLoc || perLoc === -1 || atLoc === -1 || perLoc === (atLoc + 1))
+			{
+				alert("Please enter a valid email address");			
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<h1>Feedback Submission</h1>
+	<br>
+	<form align = "center" id = "feedback_form" onsubmit = "validateEmail()">
+		Give us some feedback:<br> <textarea align = "center" class = "long_text_entry" value = "Write your comments here..."></textarea><br>
+		Email Address: <input type = "text" id = "email"><br>
+		<input type = "submit" value = "Submit">
+		
+	</form>
+	<br><br>
+	<footer align = "center">
+	<a href = "calculator.html">Return to Calculator</a><br>
+	<a href = "faq.html">FAQ</a>&nbsp;&nbsp;
+	<a href = "registration_form.html">Register!</a>
+	</footer>
+</body>
+</html>
