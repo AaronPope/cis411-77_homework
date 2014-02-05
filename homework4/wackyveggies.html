@@ -18,26 +18,39 @@
 		{
 			width: 100%;
 		}
+		
+		#sidebar
+		{
+			background-color: #e6e6e6;
+			border-radius: 10px;			
+		}
+		
+		#sidebar_title
+		{
+			padding-left: 10px;
+			color: gray;
+		}		
 	</style>
 </head>
 
  <body>
 	<div class = "container-fluid">
 		<div class = "row">
-			<div class = "col-lg-3">
-				<h1>Some Favorites</h1>
-				<ul>
-					<li><a href="#">Celery Root</a>
-					</li><li><a href="#">Spaghetti Squash</a>
-					</li><li><a href="#">Killer Mushrooms</a>
-				</li></ul>
-				<form>
+			<div class = "col-lg-2">
+				<div class = "nav" id = "sidebar">
+					<h3 id = "sidebar_title">Some Favorites</h3></a>				
+					<li><a href="#">Celery Root</a></li>
+					<li><a href="#">Spaghetti Squash</a></li>
+					<li><a href="#">Killer Mushrooms</a></li>
+				<div class = "nav-divider"></div>	
+				<form class = "navbar-form">
 					<input type = "search">
 					<input type = "submit" name = "Search Recipes">
 				</form>
+				</div>
 			</div>
 			
-			<div class = "col-lg-9">
+			<div class = "col-lg-10">
 				<div class = "alert alert-danger">
 					<strong>Uh oh!</strong> Have you had your dialy dose of veggies today??
 				</div>
