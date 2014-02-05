@@ -93,7 +93,24 @@
 		padding: 20px;
 		height: 1%;
 	}
-
+	
+	@media print 
+	{
+		#header, #navigation, #footer
+		{
+			display: none;
+		}
+		
+		#content
+		{
+			width: 100%;
+		}
+		
+		#aside
+		{
+			float: none;
+		}
+	}
     </style>
 </head>
     
