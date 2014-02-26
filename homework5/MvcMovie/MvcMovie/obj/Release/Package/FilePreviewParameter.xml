@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="pope.uofl-cis411.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Aaron\\Documents\\GitHub\\cis411-77_homework\\homework5\\MvcMovie\\MvcMovie\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Aaron\\Documents\\GitHub\\cis411-77_homework\\homework5\\MvcMovie\\MvcMovie\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-MvcMovie-20140223110548.mdf;Initial Catalog=aspnet-MvcMovie-20140223110548;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aaron\\Documents\\GitHub\\cis411-77_homework\\homework5\\MvcMovie\\MvcMovie\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="MovieDBContext-Web.config Connection String" description="" value="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Movies.mdf;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aaron\\Documents\\GitHub\\cis411-77_homework\\homework5\\MvcMovie\\MvcMovie\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MovieDBContext']/@connectionString" />
+  </parameter>
+</parameters>
